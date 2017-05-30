@@ -97,6 +97,8 @@ $herbie = new Car();
 
 // show object properties
 echo $herbie->model;
+echo "<br>";
+
 
 
 
@@ -118,10 +120,15 @@ $superVariable = "HELLO SAN FRANCISCO!";
 $superVariable = null;
 var_dump($superVariable);
 
-
+echo "<p>The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP.</p>
+<p>A common example of using the resource data type is a database call.</p>
+<p>We will not talk about the resource type here, since it is an advanced topic.</p>"
 
 
 ?>
+
+<a href="form.php">Go to php forms world</a>
+
 
 </body>
 </html>
