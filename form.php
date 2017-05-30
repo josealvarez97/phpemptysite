@@ -44,7 +44,7 @@ E-mail: <input type="text" name="email"><br>
 </form>
 
 
-
+<h2>VALIDATING A FORM</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 Name: <input type="text" name="name">
 <br><br>
@@ -61,7 +61,19 @@ Gender: <input type="radio" name="gender" value="female">Female
 </form>
 
 
+<?php
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $website;
+echo "<br>";
+echo $comment;
+echo "<br>";
+echo $gender;
+echo "<br>";
 
+?>
 
 
 
