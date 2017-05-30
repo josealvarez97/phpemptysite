@@ -46,13 +46,16 @@ print "It seems that print and echo are really almost the same thing, very few d
 
 
 
-
+echo "<h1>VARIABLES</h1>"
 $x = "Hello world!";
 $y = 'Hello world!';
 
 echo $x;
 echo "<br>";
 echo $y;
+
+$x = 5985;
+var_dump($x);
 
 ?>
 
