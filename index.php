@@ -3,6 +3,18 @@
 <body>
 
 
+
+<?php
+
+class Car {
+	function Car() {
+		$this->model = "VW";
+	}
+}
+
+
+?>
+
 <?php
 $name = "Jose";
 $lastName = "Alvarez";
@@ -73,8 +85,18 @@ $yBool = false;
 $cars = array("Volvo", "BMW", "Toyota");
 var_dump($cars);
 echo "<br>";
- 
 
+//  echo "<p>An object is a data type which stores data and information on how to process that data.</p>
+
+// <p>In PHP, an object must be explicitly declared.</p>
+
+// <p>First we must declare a class of object. For this, we use the class keyword. A class is a structure that can contain properties and methods:</p>"
+
+// create an object
+$herbie = new Car();
+
+// show object properties
+echo $herbie->model;
 
 ?>
 
