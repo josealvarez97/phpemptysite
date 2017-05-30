@@ -63,13 +63,13 @@ var_dump($x_int);
 echo "<br>";
 
 $xfloat = 10.365;
-var_dump($xfloat) . "<br>";
+echo var_dump($xfloat) . "<br>";
 
 $xBool = true;
 $yBool = false;
 
 $cars = array("Volvo", "BMW", "Toyota");
-var_dump($cars) . "<br">; 
+echo var_dump($cars) . "<br">; 
 
 
 ?>
