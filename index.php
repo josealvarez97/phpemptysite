@@ -13,7 +13,18 @@ function tryName() {
 	echo "Hello people, this a test: my name is $name " . $GLOBALS['lastName'];
 }
 
+
+function IronManMovieCounter(){
+	$movieNumber = 1;
+	echo "Ironman $movieNumber";
+	$movieNumber++;
+}
+
+
 tryName();
+IronManMovieCounter();
+IronManMovieCounter();
+IronManMovieCounter();
 
 
 ?>
