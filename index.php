@@ -56,6 +56,7 @@ echo $y;
 
 $x_int = 5985;
 var_dump($x);
+var_dump($x_int);
 
 ?>
 
