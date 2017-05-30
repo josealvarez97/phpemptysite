@@ -45,7 +45,7 @@ E-mail: <input type="text" name="email"><br>
 
 
 <h2>VALIDATING A FORM</h2>
-<form method="post" action="<?php echo ($_SERVER["PHP_SELF"]);?>">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 Name: <input type="text" name="name">
 <br><br>
 E-mail: <input type="text" name="email">
