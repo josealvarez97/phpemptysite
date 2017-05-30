@@ -27,6 +27,12 @@ IronManMovieCounter();
 IronManMovieCounter();
 
 
+echo "<h2>PHP is easy until now xD</h2>";
+echo "I hope to have time to finish this tutorial<br>";
+echo "This ", "string ", "was ", "made, ", "with ", "multiple ", "parameters";
+
+
+
 ?>
 
 </body>
