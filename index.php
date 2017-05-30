@@ -16,7 +16,7 @@ function tryName() {
 
 function IronManMovieCounter(){
 	$movieNumber = 1;
-	echo "Ironman $movieNumber";
+	echo "Ironman " . $movieNumber;
 	$movieNumber++;
 }
 
