@@ -54,7 +54,7 @@ echo $x;
 echo "<br>";
 echo $y;
 
-$x = 5985;
+$x_int = 5985;
 var_dump($x);
 
 ?>
