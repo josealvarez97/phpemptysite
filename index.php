@@ -40,10 +40,19 @@ $y = 4;
 echo "<h2>$whatToLearn</h2>";
 echo "I first learned the basics of php at " . $GLOBALS['whereToLearn'] ."(using echo here)<br>";
 $GLOBALS['y'] = $x + $y;
-echo $y;
+echo $y . "<br>";
 print "I first learned the basics of php at " . $GLOBALS['whereToLearn'] ." (using printhere)<br>";
 print "It seems that print and echo are really almost the same thing, very few differences that can almost be skipped entirely<br>";
 
+
+
+
+$x = "Hello world!";
+$y = 'Hello world!';
+
+echo $x;
+echo "<br>";
+echo $y;
 
 ?>
 
