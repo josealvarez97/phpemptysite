@@ -11,6 +11,9 @@ function tryName() {
 	echo "Hello people, this a test: $name";
 }
 
+tryName();
+
+
 ?>
 
 </body>
