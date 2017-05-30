@@ -32,6 +32,16 @@ echo "I hope to have time to finish this tutorial<br>";
 echo "This ", "string ", "was ", "made, ", "with ", "multiple ", "parameters";
 
 
+$whatToLearn = "Learn PHP";
+$whereToLearn = "W3Schools.com";
+$x = 5;
+$y = 4;
+
+echo "<h2>$whatToLearn</h2>";
+echo "I first learned the basics of php at " . $GLOBALS['whereToLearn'];
+GLOBALS['y'] = $x + $y;
+echo $y;
+
 
 ?>
 
