@@ -46,7 +46,7 @@ print "It seems that print and echo are really almost the same thing, very few d
 
 
 
-echo "<h1>VARIABLES</h1>"
+echo "<h1>VARIABLES</h1>";
 $x = "Hello world!";
 $y = 'Hello world!';
 
@@ -54,9 +54,9 @@ echo $x;
 echo "<br>";
 echo $y;
 
-$xin = 5985;
-// var_dump($x);
-// var_dump($x_int);
+$x_int = 5985;
+var_dump($x);
+var_dump($x_int);
 
 ?>
 
