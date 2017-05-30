@@ -10,13 +10,13 @@ echo "Hello World! atte: " . $name . "<br>";
 
 function tryName() {
 	global $name;
-	echo "Hello people, this a test: my name is $name " . $GLOBALS['lastName'];
+	echo "<p>Hello people, this a test: my name is $name " . $GLOBALS['lastName'] . "<\p>";
 }
 
 
 function IronManMovieCounter(){
-	$movieNumber = 1;
-	echo "Ironman " . $movieNumber;
+	static $movieNumber = 1;
+	echo "<p>Ironman " . $movieNumber . "<p>";
 	$movieNumber++;
 }
 
