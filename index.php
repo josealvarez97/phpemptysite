@@ -1,4 +1,4 @@
 <?php
 $name = "Jose";
-echo "Hello World! atte: " . $name .;
+echo "Hello World! atte: " . $name;
 ?>
