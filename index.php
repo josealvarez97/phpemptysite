@@ -39,7 +39,7 @@ $y = 4;
 
 echo "<h2>$whatToLearn</h2>";
 echo "I first learned the basics of php at " . $GLOBALS['whereToLearn'];
-GLOBALS['y'] = $x + $y;
+// GLOBALS['y'] = $x + $y;
 echo $y;
 
 
