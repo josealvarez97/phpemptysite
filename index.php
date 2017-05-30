@@ -53,10 +53,17 @@ $y = 'Hello world!';
 echo $x;
 echo "<br>";
 echo $y;
+echo "<br>";
+
 
 $x_int = 5985;
 var_dump($x);
+echo "<br>";
 var_dump($x_int);
+echo "<br>";
+
+$xfloat = 10.365;
+var_dump(xfloat) . "<br>";
 
 ?>
 
