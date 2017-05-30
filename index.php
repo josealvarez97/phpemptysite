@@ -65,6 +65,13 @@ echo "<br>";
 $xfloat = 10.365;
 var_dump($xfloat) . "<br>";
 
+$xBool = true;
+$yBool = false;
+
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars) . "<br">; 
+
+
 ?>
 
 </body>
