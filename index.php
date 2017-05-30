@@ -63,7 +63,7 @@ var_dump($x_int);
 echo "<br>";
 
 $xfloat = 10.365;
-var_dump(xfloat) . "<br>";
+var_dump($xfloat) . "<br>";
 
 ?>
 
