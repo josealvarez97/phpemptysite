@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 
 	if(empty($_POST['gender'])) {
-		$gender = "Gender is required";
+		$genderErr = "Gender is required";
 	} else {
 		$gender = test_input($_POST['gender']);
 	}
@@ -92,7 +92,7 @@ E-mail: <input type="text" name="email">
 <span class="error">* <?php echo $emailErr; ?></span>
 <br><br>
 Website: <input type="text" name="website">
-<span class="error">* <?php echo $websiteErr; ?></span>
+<span class="error"> <?php echo $websiteErr; ?></span>
 <br><br>
 Comment: <textarea name="comment" rows="5" cols="40"></textarea>
 <br><br>
